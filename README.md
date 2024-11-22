@@ -63,17 +63,17 @@ The program generates a output.csv file containing the Secret Santa assignments 
 
 ## Project Structure
   
-├── data/
-│   ├── employee.xlsx
-│   ├── previous_assignments.xlsx
-│   ├── output.csv
-├── tests/
-|   ├── test_convert_to_csv.py
-|   ├── test_file_operations.py
-|   ├── test_secret_santa.py
-├── main.py
-├── requirements.txt
-└── README.md
+    ├── data/
+    │   ├── employee.xlsx
+    │   ├── previous_assignments.xlsx
+    │   ├── output.csv
+    ├── tests/
+    |   ├── test_convert_to_csv.py
+    |   ├── test_file_operations.py
+    |   ├── test_secret_santa.py
+    ├── main.py
+    ├── requirements.txt
+    └── README.md
 
 
 
