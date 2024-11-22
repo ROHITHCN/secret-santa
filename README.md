@@ -62,7 +62,7 @@ The program generates a output.csv file containing the Secret Santa assignments 
   All test cases have been given in the tests folder
 
 ## Project Structure
-  .
+  
 ├── data/
 │   ├── employee.xlsx
 │   ├── previous_assignments.xlsx
@@ -74,3 +74,32 @@ The program generates a output.csv file containing the Secret Santa assignments 
 ├── main.py
 ├── requirements.txt
 └── README.md
+
+
+
+## Component Descriptions
+
+### `data/`
+This folder contains all the input and output data files:
+- **`employee.xlsx`**: Input file listing employees and their email IDs.
+- **`previous_assignments.xlsx`**: Input file with the previous year's Secret Santa assignments to avoid repetition.
+- **`output.csv`**: Output file generated after assigning Secret Santas, containing employee and secret child details.
+
+### `tests/`
+This folder contains unit tests for the project:
+- **`test_convert_to_csv.py`**: Tests for ensuring correct conversion and formatting of CSV files.
+- **`test_file_operations.py`**: Tests to validate file reading and writing processes.
+- **`test_secret_santa.py`**: Tests for the logic behind the Secret Santa assignment, ensuring constraints are met.
+
+### `main.py`
+The primary script to execute the Secret Santa assignment process:
+- Reads the input data from the `data/` folder.
+- Handles Secret Santa assignment logic.
+- Writes the output data to the `output.csv` file in the `data/` folder.
+
+### `requirements.txt`
+Lists the dependencies required for the project. Install them using:
+
+```bash
+pip install -r requirements.txt
+
