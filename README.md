@@ -53,7 +53,9 @@ The program generates a output.csv file containing the Secret Santa assignments 
 
   Run the Program: Execute the following command:
 
-## python main.py
+  ```bash
+  python main.py
+  ```
 
   View Results: The assignments will be saved as output.csv in the data/ directory.
 
